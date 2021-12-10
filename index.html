@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <title>Agroquimicos Srp</title>
+    
+
+  
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    
+    
+    <header class="container-fluid bg-dark position-sticky top-0">
+      <ul
+        class="nav nav-pills mb-3 py-3 container"
+        id="pills-tab"
+        role="tablist"
+      >
+       
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link active"
+            id="pills-profile-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-profile"
+            type="button"
+            role="tab"
+            aria-controls="pills-profile"
+            aria-selected="false"
+            >Productos</a
+          >
+        </li>
+        <li class="nav-item" role="presentation">
+          <a
+            class="nav-link"
+            id="pills-contact-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-contact"
+            type="button"
+            role="tab"
+            aria-controls="pills-contact"
+            aria-selected="false"
+            >Carrito</a
+          >
+        </li>
+       <li class="nav-item" >
+          <a
+            class="nav-link"
+            id="pills-contact-tab"
+          
+            type="button"
+            href =sucursales.html
+            aria-controls="pills-contact"
+            aria-selected="false"
+             >Asesores comerciales</a
+      </ul>
+
+    
+  
+    </header>
+
+    <button id="modal-abrir" class="abrir">Registrar domicilio para hacer un pedido</button>
+    <div class="alert container position-sticky top-0 alert-primary hide" role="alert">
+    Producto Añadido al carrito!
+    </div>
+    <div class="alert container position-sticky top-0 alert-danger remove" role="alert">
+      Producto removido!
+    </div>
+
+    <div class="tab-content" id="pills-tabContent">
+      <div
+        class="tab-pane fade "
+        id="pills-home"
+        role="tabpanel"
+        aria-labelledby="pills-home-tab"
+      >
+        1
+      </div>
+      <div
+        class="tab-pane fade show active container"
+        id="pills-profile"
+        role="tabpanel"
+        aria-labelledby="pills-profile-tab"
+      >
+        <h2 class="subT"><i class="fas fa-seedling"></i>Nuestro Productos</h2>
+        <p>¿PORQUÉ ELEGIR agroQ?
+agroQ S.A. está integrada por un equipo de profesionales altamente capacitados, quienes han trabajado junto a laboratorios de primer nivel para desarrollar una completa línea de productos, permitiéndole al productor contar con una empresa que trabaja a su servicio.</p>
+
+        <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Fosfito de potasio</h5>
+              <img src="http://www.sinersa.com/ico/bidones/fertilizante/phit.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">Por un lado actúa como fungicida y bactericida y por el otro permite corregir carencias de elementos minerale</p>
+                <h5 class="text-primary">Precio: <span class="precio">$2500</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Amonio cuaternario</h5>
+              <img src="http://www.sinersa.com/ico/bidones/postcosecha/sportak.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">Atrape y remueva gérmenes para prácticamente eliminar el riesgo de contaminación cruzada</p>
+                <h5 class="text-primary">Precio: <span class="precio">$2250</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Atrazina</h5>
+              <img src="http://www.sinersa.com/ico/bidones/herbicidas/atrazina50.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">Herbicida con más amplio espectro de control y sin restricciones en la rotación</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 3355</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Imazetapir 10%</h5>
+              <img src="http://www.sinersa.com/ico/bidones/herbicidas/papir.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">ficaz herramienta para el control de Conyza sp, y Gramíneas tolerantes </p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 3365</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Clorpirifo 48%</h5>
+              <img src="http://www.sinersa.com/ico/bidones/insecticidas/clorpirifos.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">Insecticida recomendado para el control de insectos chupadores y masticadores</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 7555</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Metaldehido 6%</h5>
+              <img src="http://www.sinersa.com/ico/bidones/insecticidas/babocres.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">pesticida contra babosas, caracoles, y otros gastrópodos.</p>
+                <h5 class="text-primary">Precio: <span class="precio">$3555</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Aceite vegeal Coadyuvante</h5>
+              <img src="http://www.sinersa.com/ico/bidones/coadyudantes/vegetaloil.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">Evita la evaporación prematura de éstas una vez que impactaron en el blanco, dando tiempo a que ocurra la traslocación.</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 2565</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card shadow mb-1 bg-dark rounded" style="width: 20rem;">
+              <h5 class="card-title pt-2 text-center text-primary">Friponil</h5>
+              <img src="http://www.sinersa.com/ico/bidones/insecticidas/standak.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p class="card-text text-white-50 description">un tratamiento 5 estrellas listo para utilizar en tu soja..</p>
+                <h5 class="text-primary">Precio: <span class="precio">$ 4855</span></h5>
+                <div class="d-grid gap-2">
+                <button  class="btn btn-primary button">Añadir a Carrito</button>
+              </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+      <div
+        class="tab-pane fade carrito"
+        id="pills-contact"
+        role="tabpanel"
+        aria-labelledby="pills-contact-tab"
+      >
+      <br>
+      <table class="table table-dark table-hover">
+        <thead>
+          <tr class="text-primary">
+            <th scope="col">#</th>
+            <th scope="col">Productos</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Cantidad</th>
+          </tr>
+        </thead>
+        <tbody class="tbody">
+          
+        
+          
+        </tbody>
+      </table>
+      <br><br>
+      <div class="row mx-4">
+        <div class="col">
+          <h3 class="itemCartTotal text-white">Total: 0</h3>
+        </div>
+        <div class="col d-flex justify-content-end">
+            <button id="pagar" class="btn btn-success">COMPRAR</button>
+        </div>
+      </div>
+      
+      </div>
+    </div>
+       <div id="modal-container" class="modal-container">
+        <div id="modal">
+            <h3>!Envia tus datos</h3>
+            <button id="modal-cerrar">Cerrar</button>
+            <br>
+            <br>
+            <form id="formulario">
+                <input type="text" id="nombre">Nombre</imput>
+                <input type="text" id="direccion">Direccion</imput>
+                <br>
+                <button type="submit">Enviar datos</button>
+            </form>
+        </div>
+    </div>
+    <div id="modal-container" class="modal-container">
+        <div id="modal">
+    <h3>!Estas s</h3>
+            <button id="modalc2r">Cerrar</button>
+            <br>
+            <br>
+            <form id="formulario1">
+               
+                <br>
+                <button  id="abrirM"type="submit">Comprar!</button>
+            </form>
+        </div>
+
+
+    <footer class="bg-dark p-3 mt-5">
+      <p class="text-center m-0 text-muted">agroQ 2021</p>
+    </footer>
+ <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/scripts.js"></script>
+  </body>
+</html>
