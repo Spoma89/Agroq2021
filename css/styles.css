@@ -156,3 +156,9 @@ thead{
   font-weight: bold;
 
 }
+tr{
+  margin: 0px;
+}
+.text-primary{
+  margin: 0px;
+}
