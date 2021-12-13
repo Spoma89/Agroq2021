@@ -1,21 +1,7 @@
 body{
  
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
-  height: 100vh;
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
+ background-image: url(https://www.ringtina.com.ar/Descargar/Fondos%20de%20Pantalla/Abstractos/ImgAbstractos%20074.jpg);
+ font-family: 'Roboto Mono', monospace;
 }
 
 
@@ -25,7 +11,7 @@ header, .alert{
   z-index: 100;
 }
 main{
-  background: linear-gradient(-45deg, white, transparent)
+  background: linear-gradient(-45deg, black, transparent)
 }
 .logo{
   display:block;
@@ -70,14 +56,12 @@ main{
 .hide, .remove{
   display: none;
 }
-.card shadow mb-1 bg-dark {
-  background: red;
-}
+
 
 .modal-container {
     width: 100vw;
     height: 100vh;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-image: url(https://www.ringtina.com.ar/Descargar/Fondos%20de%20Pantalla/Abstractos/ImgAbstractos%20074.jpg);
     position: fixed;
     top: 0;
     left: 0;
@@ -94,7 +78,7 @@ main{
 #modal {
     width: 400px;
     height: 400px;
-    background-image: 
+    background-color:#4375FA;
     border-radius: 15px;
     padding: 20px;
 
@@ -124,7 +108,7 @@ h2.subT{
   border-radius: 5px;
   border-style: solid;
   border-color: black;
-   background-color:#BCD0FffF;
+   background-color:black;
 }
 tr{
   color:white;
